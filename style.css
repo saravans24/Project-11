@@ -426,3 +426,71 @@ body{
   .footer2 div:last-child ul li img{
     width: 36px;
   }
+
+
+@media (max-width:500px){
+
+  .navbar ul{
+    display: none;
+  }
+
+  .part1 {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    height: 130vh;
+  }
+
+  .part2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 120vh;
+  }
+
+  .part1r img {
+    height: 300px;
+  }
+
+  .part2l img {
+    height: 330px;
+  }
+
+  .part3r img {
+    height: 350px;
+  }
+
+  .part3 {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    height: 140vh;
+  }
+
+  .part4r {
+    margin: 0;
+  }
+
+  .part5o {
+    height: 250vh;
+  }
+
+  .part7i1, .part7i2 {
+    flex-wrap: wrap;
+  }
+
+  .part8 {
+    flex-direction: column;
+    height: 80vh;
+    justify-content: center;
+  }
+
+  .part8l h1 {
+    font-size: 35px;
+  }
+
+  .footer1 {
+    flex: unset;
+  }
+
+}
